@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1e1e2f; 
+  color: #f0f0f0; 
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #282a36; 
+  color: #ff79c6; 
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav a {
+  color: #8be9fd; 
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ff79c6;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #6272a4;
+  border-radius: 5px;
+  background-color: #44475a; 
+  color: #f0f0f0; 
+}
+
+.form-group input::placeholder {
+  color: #6272a4; 
+}
+
+.form-group button {
+  background-color: #ff79c6;
+  color: #282a36; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color:  #ff79c6;
+}
+
+.tip-calculator-container, .login-container, .registration-container {
+  margin-top: 40px;
+}
+
+.tip-result {
+  margin-top: 20px;
+}
+
+.tip-result h3 {
+  font-size: 1.5em;
+  color: #8be9fd; 
+}

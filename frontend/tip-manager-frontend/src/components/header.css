@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .logout-button {
+    background-color: #ff79c6; 
+    color: #282a36;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #ff79c6;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
